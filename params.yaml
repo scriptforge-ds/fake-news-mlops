@@ -1,0 +1,11 @@
+preprocess:
+  remove_stopwords: true
+  lowercase: true
+  test_size: 0.2
+  random_state: 42
+
+train:
+  model_name: distilbert-base-uncased
+  epochs: 2
+  batch_size: 16
+  learning_rate: 5e-5

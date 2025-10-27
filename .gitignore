@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+
+# Environment
+.env
+venv/
+.venv/
+
+# Data & models
+data/raw/*
+data/processed/*
+models/*
+reports/*
+!data/.gitkeep
+!models/.gitkeep
+!reports/.gitkeep
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# DVC cache
+.dvc/cache/
+.dvc/tmp/
