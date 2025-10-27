@@ -22,6 +22,7 @@ The pipeline includes:
 
 ## 📁 Project Structure
 
+```
 fake-news-mlops/
 ├── data/ <- raw and processed datasets (tracked via DVC)
 ├── src/ <- source scripts for each pipeline stage
@@ -31,7 +32,7 @@ fake-news-mlops/
 ├── params.yaml <- configuration file for pipeline parameters
 ├── requirements.txt <- Python dependencies
 └── dvc.yaml <- DVC pipeline definition (added later)
-
+```
 
 ---
 

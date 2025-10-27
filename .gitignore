@@ -19,6 +19,7 @@ reports/*
 !data/.gitkeep
 !models/.gitkeep
 !reports/.gitkeep
+!data/processed/*.dvc
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
