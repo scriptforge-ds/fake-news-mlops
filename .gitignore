@@ -23,6 +23,7 @@ reports/*
 
 # Jupyter checkpoints
 .ipynb_checkpoints/
+notebooks/mlruns/*
 
 # DVC cache
 .dvc/cache/
