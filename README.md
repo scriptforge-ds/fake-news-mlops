@@ -1,4 +1,4 @@
-# 🧠 Fake News Detection with DistilBERT – MLOps Pipeline
+# Fake News Detection with DistilBERT – MLOps Pipeline
 
 A reproducible end-to-end Machine Learning workflow for **Fake News Detection**, built with:
 - **DistilBERT** for language understanding
@@ -8,19 +8,19 @@ A reproducible end-to-end Machine Learning workflow for **Fake News Detection**,
 
 ---
 
-## 🚀 Project Overview
+## Project Overview
 
 This project detects whether a given news article is **fake or real** using NLP-based models.
 The pipeline includes:
-1. **EDA** – Explore the data to understand patterns
-2. **Preprocessing** – Clean, normalize, and prepare data
-3. **Model Training** – Baseline (TF-IDF) → Fine-tuned DistilBERT
-4. **Explainability** – SHAP/LIME-based interpretation
-5. **MLOps Integration** – DVC + MLflow + GitHub Actions
+1. **EDA** - Explore the data to understand patterns
+2. **Preprocessing** - Clean, normalize, and prepare data
+3. **Model Training** - Baseline (TF-IDF) → Fine-tuned DistilBERT
+4. **Explainability** - SHAP/LIME-based interpretation
+5. **MLOps Integration** - DVC + MLflow + GitHub Actions
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 fake-news-mlops/
@@ -36,7 +36,7 @@ fake-news-mlops/
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 | Component | Tool |
 |------------|------|
@@ -48,23 +48,23 @@ fake-news-mlops/
 
 ---
 
-## 🧪 Getting Started
+## Getting Started
 
 ```bash
-# 1️⃣ Clone the repo
+# Clone the repo
 git clone https://github.com/<yourusername>/fake-news-mlops.git
 cd fake-news-mlops
 
-# 2️⃣ Create environment
+# Create environment
 python -m venv venv && source venv/bin/activate
 pip install -r requirements.txt
 
-# 3️⃣ Initialize DVC
+# Initialize DVC
 dvc init
 ```
 
 ---
 
-## 📜 License
+## License
 
-This project is released under the **MIT License** — free to use and modify for educational and research purposes.
+This project is released under the **MIT License** - free to use and modify for educational and research purposes.
